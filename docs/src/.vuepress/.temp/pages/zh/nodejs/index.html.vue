@@ -1,4 +1,4 @@
-<template><div><h1 id="nodejs入门" tabindex="-1"><a class="header-anchor" href="#nodejs入门" aria-hidden="true">#</a> Nodejs入门</h1>
+<template><div><h1 id="nodejs" tabindex="-1"><a class="header-anchor" href="#nodejs" aria-hidden="true">#</a> Nodejs</h1>
 <h2 id="简介" tabindex="-1"><a class="header-anchor" href="#简介" aria-hidden="true">#</a> 简介</h2>
 <p>2009 年初 Node.js 出现，它是由 Ryan Dahl 基于 Chrome V8 引擎开发的 JavaScript 运行时环境（Runtime），所以 Node.js 也是 JavaScript 的一种宿主环境。它的底层就是我们所熟悉的 Chrome 浏览器的 JavaScript 引擎。</p>
 <h3 id="与浏览器js环境的区别点" tabindex="-1"><a class="header-anchor" href="#与浏览器js环境的区别点" aria-hidden="true">#</a> 与浏览器JS环境的区别点</h3>

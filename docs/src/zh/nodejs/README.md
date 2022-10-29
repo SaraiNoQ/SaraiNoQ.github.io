@@ -5,9 +5,9 @@ category:
   - Nodejs
 tag:
   - 介绍
+  - Node
 ---
-# Nodejs入门
-
+# Nodejs
 
 ## 简介
 2009 年初 Node.js 出现，它是由 Ryan Dahl 基于 Chrome V8 引擎开发的 JavaScript 运行时环境（Runtime），所以 Node.js 也是 JavaScript 的一种宿主环境。它的底层就是我们所熟悉的 Chrome 浏览器的 JavaScript 引擎。
@@ -25,7 +25,7 @@ tag:
 
 ## 基础架构
 
-![图片](https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/v2/cover/boxcnRhKFbqaOv8TuTfxC0uakYk/?fallback_source=1&height=1280&mount_node_token=doxcnO42wm02KuoswIzGMlyPsBh&mount_point=docx_image&policy=equal&width=1280)
+<img :src="$withBase('/notes/nodejs介绍.PNG')" alt="Nodejs基础架构图">
 
 ### 底层
 Node.js 是运行在操作系统之上的，它底层由 V8 JavaScript 引擎，以及一些 C/C++ 写的库构成，包括 libUV 库、c-ares、llhttp/http-parser、open-ssl、zlib 等等。

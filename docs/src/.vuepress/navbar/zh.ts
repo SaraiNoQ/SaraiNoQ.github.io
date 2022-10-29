@@ -9,17 +9,6 @@ export const zhNavbar = navbar([
     prefix: "/zh/posts/",
     children: [
       {
-        text: "苹果",
-        icon: "edit",
-        prefix: "apple/",
-        children: [
-          { text: "苹果1", icon: "edit", link: "1" },
-          { text: "苹果2", icon: "edit", link: "2" },
-          "3",
-          "4",
-        ],
-      },
-      {
         text: "香蕉",
         icon: "edit",
         prefix: "banana/",
@@ -45,7 +34,23 @@ export const zhNavbar = navbar([
     ],
   },
   {
-    text: "V2 文档",
+    text: "代码人生",
+    icon: "code",
+    prefix: "/zh/nodejs/",
+    children: [
+      {
+        text: "Nodejs",
+        icon: "edit",
+        prefix: "base/",
+        children: [
+          { text: "目录", icon: "flow", link: "" },
+          // { text: "Nodejs入门介绍", icon: "edit", link: "simple-detail" },
+        ],
+      },
+    ],
+  },
+  {
+    text: "废纸篓",
     icon: "note",
     link: "https://vuepress-theme-hope.github.io/v2/zh/",
   },
