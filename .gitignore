@@ -1,2 +1,9 @@
 node_modules
-pnpm-lock.yaml
+# pnpm-lock.yaml
+
+# Vuepress Cache
+.cache/
+# Vuepress Temp
+.temp/
+# Vuepress Output
+dist/
